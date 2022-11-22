@@ -16,14 +16,11 @@ function MainPage() {
   }
 
   return (
-    <div className="layout_main">
-      <div className="hero_text">
-        <h2>Hi. My name is Michalina and I am studying Multimedia Design at KEA.</h2>
-        <h3>I am currently searching for a 10-week full-time internship in the digital field.</h3>
-        <a href="mailto:michalina.oniszczuk@gmail.com?subject=Quick%20question" className="email">
+    <div className="main">
+        <h2>Hi. My name is Michalina and I am studying Multimedia Design at KEA. I am currently searching for a 10-week full-time internship in the digital field.</h2>
+        <a href="mailto:michalina.oniszczuk@gmail.com?subject=A%20question%20or%20two" className="email">
           michalina.oniszczuk@gmail.com
         </a>
-      </div>
     </div>
   );
 }

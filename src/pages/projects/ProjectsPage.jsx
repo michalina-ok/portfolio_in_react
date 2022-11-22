@@ -1,14 +1,42 @@
-import React from 'react'
-import { Project } from "./components/Project"
+import React from "react";
+import { Project } from "./components/Project";
+import Button from "./components/Button";
 
 function ProjectsPage() {
   return (
-         <div className="layout_projects">
-        <h3>Projects</h3>
-      <Project name="Gerner Jahncke" description="Lorem Ipsum" img_url="" img_alt=""  />
-      <Project />
-      </div>
-  )
+    <div className="projects">
+
+      <Project
+        name="Gerner Jahncke"
+        description="Gerner Jahncke was a final 2nd semester project done collaboratively in a 4-people team. We conducted user research and created a website design and social media strategy for an independent ceramics studio based in Bornholm. The website was also developed using HTML, CSS and JavaScript."
+        img_link="src/assets/gerner_jahncke.webp"
+        img_alt=""
+        buttons={[
+          <Button text="Prototype" url="http://gareth.dk/portfolio/Assets/Projects/gernerJahncke/index.html" />,
+          <Button text="Wireframes" url="https://www.figma.com/file/mYugfqtYu10stAhTM1FXTX/visual%2Fwireframes%2Fprototypes?node-id=67%3A2" />,
+        ]}
+      />
+      <Project
+        name="Hogwart assignment"
+        description="Hogwart assignment was a final project of a 5 week long theme called 'Just JavaScript'. The goal of the assignment was to create a database of Hogwart students, display information about them and let the user perform some actions e.x.
+      add students to the prefect team or to the inquisitorial squad. Not my proudest design but hey, I learnt a lot about JavaScript. "
+        img_link="src/assets/hogwart_assignment.webp"
+        img_alt=""
+        buttons={[
+        <Button text="Website" url="https://michalina-ok.github.io/hogwart_assignment/" />, 
+        <Button text="Code on GitHub" url="https://github.com/michalina-ok/hogwart_assignment" />]}
+      />
+      <Project
+        name="Alternative portfolio"
+        description="Previous version of this page. Built before I have started learning React so it's based on vanilla JavaScript, HTML and Sass. Still minimal yet a bit more playful design including a geometrical header."
+        img_link="src/assets/alternative_portfolio.webp"
+        img_alt=""
+        buttons={[
+        <Button text="Project" url="https" />, 
+        <Button text="Code on GitHub" url="https://github.com/michalina-ok/portfolio_javascript" />]}
+      />
+    </div>
+  );
 }
 
-export default ProjectsPage
+export default ProjectsPage;

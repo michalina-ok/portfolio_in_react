@@ -9,13 +9,13 @@ function BurgerMenu() {
 
   return (
     <>
-      <header className={menuClass}>
+      <div className={menuClass}>
       <button onClick={OpenCloseMenu}>
       <div className={menuClass + " line"}></div>
         <div className={menuClass + " line"}></div>
         <div className={menuClass + " line"}></div>
       </button>
-      </header>
+      </div>
     </>
   );
 }
