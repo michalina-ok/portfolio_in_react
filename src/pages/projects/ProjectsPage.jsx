@@ -9,7 +9,7 @@ function ProjectsPage() {
       <Project
         name="Gerner Jahncke"
         description="Gerner Jahncke was a final 2nd semester project done collaboratively in a 4-people team. We conducted user research and created a website design and social media strategy for an independent ceramics studio based in Bornholm. The website was also developed using HTML, CSS and JavaScript."
-        img_link="src/assets/gerner_jahncke.webp"
+        img_link="/gerner_jahncke.webp"
         img_alt=""
         buttons={[
           <Button text="Prototype" url="http://gareth.dk/portfolio/Assets/Projects/gernerJahncke/index.html" />,
@@ -20,7 +20,7 @@ function ProjectsPage() {
         name="Hogwart assignment"
         description="Hogwart assignment was a final project of a 5 week long theme called 'Just JavaScript'. The goal of the assignment was to create a database of Hogwart students, display information about them and let the user perform some actions e.x.
       add students to the prefect team or to the inquisitorial squad. Not my proudest design but hey, I learnt a lot about JavaScript. "
-        img_link="src/assets/hogwart_assignment.webp"
+        img_link="/hogwart_assignment.webp"
         img_alt=""
         buttons={[
         <Button text="Website" url="https://michalina-ok.github.io/hogwart_assignment/" />, 
@@ -29,7 +29,7 @@ function ProjectsPage() {
       <Project
         name="Alternative portfolio"
         description="Previous version of this page. Built before I have started learning React so it's based on vanilla JavaScript, HTML and Sass. Still minimal yet a bit more playful design including a geometrical header."
-        img_link="src/assets/alternative_portfolio.webp"
+        img_link="/alternative_portfolio.webp"
         img_alt=""
         buttons={[
         <Button text="Project" url="https" />, 
