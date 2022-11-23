@@ -32,7 +32,7 @@ function ProjectsPage() {
         img_link="/alternative_portfolio.webp"
         img_alt="Screenshot of a website. On one side there is a vertical header with three categories: projects, about, contact and a circle on top with them with 'Michalina Oniszczuk' written inside it. Centrally there is text saying: 'Hi. My name is Michalina and I design and develop stuff. I am currently looking for a 10-week internship within the field of creative development and product design' and a text saying 'See my projects'."
         buttons={[
-        <Button text="Project" url="https" />, 
+        <Button text="Website" url="https://michalina-oniszczuk-portfolio-js.netlify.app/" />, 
         <Button text="Code on GitHub" url="https://github.com/michalina-ok/portfolio_javascript" />]}
       />
     </div>
