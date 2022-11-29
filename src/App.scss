@@ -193,6 +193,8 @@ button {
 
   .single_project {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
   }
 
   h2 {
@@ -215,6 +217,12 @@ button {
     padding: 10px;
     font-variation-settings: "wght" 400, "slnt" 0;
     transition: font-variation-settings 0.2s;
+  }
+
+  a.project_img {
+    border:none;
+    margin: 0;
+    padding: 0;
   }
 
   a:hover {
@@ -283,6 +291,11 @@ button {
       font-size: $medium-font-desktop;
     }
 
+    a {
+      border: black 1px solid;
+    border-radius: 5px;
+    }
+
     .single_project {
       display: grid;
       grid-template-columns: 1.1fr 1fr;
@@ -296,12 +309,23 @@ button {
       flex-direction: column;
       justify-content: space-evenly;
     }
+
+    a.project_img {
+      border:1px black solid;
+      padding: 15px;
+    }
+
+    img {
+      margin: 0;
+    }
   }
 }
 
+
+
 @media only screen and (min-width: 1200px) {
   .projects {
-    width: 80%;
+    width: 90%;
   }
   .about {
     width: 80%;
@@ -315,8 +339,8 @@ button {
 //   }
 // }
 
-@media (prefers-color-scheme: dark) {
-}
+//@media (prefers-color-scheme: dark) {
+//}
 
 //IN CASE I USE ANIMATION
 
