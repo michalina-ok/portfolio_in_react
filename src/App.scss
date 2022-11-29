@@ -195,6 +195,7 @@ button {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px black solid;
   }
 
   h2 {
@@ -207,8 +208,9 @@ button {
     border-bottom: black 1px solid;
     font-size: $medium-font-mobile;
     font-weight: normal;
-    grid-area: 1 / span 2;
   }
+
+
 
   a {
     border: black 1px solid;
@@ -302,6 +304,7 @@ button {
       grid-template-rows: auto auto;
       grid-gap: 40px;
       align-items: center;
+      padding: 4rem;
     }
 
     .text_content {
@@ -310,10 +313,7 @@ button {
       justify-content: space-evenly;
     }
 
-    a.project_img {
-      border:1px black solid;
-      padding: 15px;
-    }
+
 
     img {
       margin: 0;
