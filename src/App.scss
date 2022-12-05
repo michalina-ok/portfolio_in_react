@@ -147,7 +147,6 @@ button {
   }
 
   h2 {
-    font-variation-settings: "wght" 400;
     font-size: 1.75rem;
     width: 80%;
   }
@@ -278,11 +277,12 @@ button {
 
     h2 {
       font-size: $medium-font-desktop;
-      width: 70%;
+      width: 60%;
     }
   }
 
   .about {
+    width: 80%;
     h2 {
       font-size: $medium-font-desktop;
     }
@@ -323,12 +323,10 @@ button {
 
 
 
-@media only screen and (min-width: 1200px) {
-  .projects {
-    width: 90%;
-  }
+@media only screen and (min-width: 1100px) {
+
   .about {
-    width: 80%;
+    width: 70%;
   }
 }
 
