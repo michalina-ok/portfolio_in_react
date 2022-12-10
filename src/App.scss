@@ -35,7 +35,6 @@ html {
 h1 {
   font-size: $big-font-mobile;
   text-transform: uppercase;
-  font-variation-settings: "wght" 500;
 }
 
 h2 {
@@ -45,11 +44,14 @@ h2 {
 a {
   text-decoration: none;
   color: $primary-text-color-light-mode;
+  transition: font-variation-settings 0.2s;
+  font-variation-settings: "wght" 400, "slnt" 0;
 }
 
 a:hover {
-  color: blue;
   text-decoration: underline;
+  font-variation-settings: "wght" 600, "slnt" -5;
+  
 }
 
 header {
@@ -61,6 +63,7 @@ header {
   margin-left: 15px;
   a:hover {
     text-decoration: none;
+  
   }
 }
 

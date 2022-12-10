@@ -8,7 +8,7 @@ function ProjectsPage() {
 
       <Project
         name="Gerner Jahncke"
-        description="Gerner Jahncke was a final 2nd semester project done collaboratively in a 4-people team. We conducted user research and created a website design and social media strategy for an independent ceramics studio based in Bornholm. The website was also developed using HTML, CSS and JavaScript."
+        description="Gerner Jahncke was a final 2nd semester project done collaboratively in a 4-people team. We conducted user research and created a website design and social media strategy for an independent ceramics studio based in Bornholm. The website was developed using HTML, CSS and JavaScript."
         solution_link="http://gareth.dk/portfolio/Assets/Projects/gernerJahncke/index.html"
         img_link="/gerner_jahncke.webp"
         img_alt="Screenshot of a website. The header says 'Gerner Jahncke'. The background picture presents vases and glasses on a table. There are four categories a user can choose - our products, our process, contact anmd comissions."
